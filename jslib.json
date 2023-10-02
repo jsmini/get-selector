@@ -1,0 +1,9 @@
+{
+    "name": "get-selector",
+    "npmname": "@jsmini/get-selector",
+    "umdname": "jsmini_get_selector",
+    "username": "jsmini",
+    "type": "ts",
+    "lang": "zh",
+    "version": "2.2.6"
+}

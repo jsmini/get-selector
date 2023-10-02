@@ -8,6 +8,19 @@
   </head>
 
   <body>
+    <div class="a">
+      <div class="b">
+        <div></div>
+        <p></p>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div id="a">
+      <div></div>
+    </div>
+
     <div id="mocha"></div>
     <script src="../../node_modules/es5-shim/es5-shim.js"></script>
     <script src="../../node_modules/es5-shim/es5-sham.js"></script>
@@ -21,6 +34,7 @@
     <script>
       var libs = {
         'expect.js': expect,
+        'mocha-jsdom': function () {},
         '../src/index.ts': window['jsmini_get_selector'],
       };
       var require = function (path) {
@@ -33,4 +47,3 @@
     </script>
   </body>
 </html>
-
